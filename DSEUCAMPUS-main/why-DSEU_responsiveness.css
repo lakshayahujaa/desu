@@ -1,0 +1,55 @@
+body {
+    font-family: 'montserratlight', sans-serif;
+    font-size: 1em;
+    line-height: 1.65;
+    color: #747474;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+}
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}
+}
+@media (min-width: 768px){
+.container {
+    width: 750px;
+}
+}
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+}
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}
+}
+@media (min-width: 768px){
+.container {
+    width: 750px;
+}
+}
+
+@media (min-width: 992px){
+.col-md-12 {
+    width: 100%;
+}
+}
+
+@media (min-width: 992px){
+.col-md-4 {
+    width: 33.33333333%;
+}
+}
+@media (min-width: 992px){
+.col-md-4{
+    float:left;
+}
+}
+
+
