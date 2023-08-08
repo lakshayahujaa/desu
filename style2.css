@@ -7,7 +7,9 @@
 .nav_up{
     display: flex;
     justify-content: center;
-}
+    font-size: 13px;
+    color: #0072bc;
+  }
 .nav_up a{
     text-decoration: none;
 }
@@ -32,14 +34,17 @@ a{
 .nav_down{
     display: flex;
     align-items: end;
-    padding: 10px;
+    font-size: 15px;
 }
 .nav_down i {
-    color: #0072bc;
     font-weight: bold;
   }
   .nav_down i:hover{
     color: orange;
+  }
+  .logo img{
+    width: 370px;
+    height: 60px;
   }
 
 
@@ -53,13 +58,14 @@ a{
     z-index: 1;
     list-style: none;
 }
+
 .dropdown{
     z-index: 2;
 }
 /* Style for each list item in the dropdown */
 .drop li {
     padding: 10px;
-    padding-left: 0;
+    margin-left: -30px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -68,16 +74,17 @@ a{
     position: relative;
     display: inline-block;
     padding: 10px;
-    color: #0072bc;
+    color: #0b6bbf;
+    font-weight: bold;
     text-decoration: none;
 }
+
 
 /* Style for the chevron icon */
 .bi-chevron-down::before {
     content: "\f078";
     font-family: "Bootstrap Icons";
     font-weight: bold;
-    margin-left: 5px;
 }
 
 /* Show the dropdown when parent item is hovered */
@@ -101,7 +108,7 @@ a{
 
 /* Style for the main navigation link */
 .nav_down_items a {
-    color: #333;
+    color: #0072bc;
     text-decoration: none;
 }
 
