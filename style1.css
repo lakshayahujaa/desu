@@ -1,8 +1,6 @@
 
 
 
-
-
 @media screen  and (max-width:900px){
     .wrapper .carousel{
         grid-auto-columns: catc((100%/6));
