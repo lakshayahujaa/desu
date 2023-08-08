@@ -1,0 +1,85 @@
+body {
+	background-image: url(./assets/campusimg.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+form {
+	width: 500px;
+	padding: 30px;
+	background: #363c50;
+	border-radius: 15px;
+}
+h2 {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: white;
+}
+input {
+	display: block;
+	background: #1c2130;
+	color: #fff;
+	border: 2px solid red;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 15px;
+}
+::placeholder{
+	color: white;
+	font-size: 20px;
+}
+label {
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+}
+button {
+	float: right;
+	background-color: #0072bc;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: orange;
+   color: black;
+   padding: 10px;
+   width: 95%;
+   border-radius: 15px;
+   margin: 20px auto;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+}
+a {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+a:hover{
+	opacity: .7;
+}
+img.center{
+	display: flex;
+	width: 40%;
+	margin: 0 auto;
+}
