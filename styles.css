@@ -1,0 +1,69 @@
+
+
+.modal-overlay {
+    display: none;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    top:-10%;
+    margin-top: 5%;
+    /* transform: translateX(70%); */
+}
+
+
+
+
+/* ... Other styles ... */
+
+/* ... Other styles ... */
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    max-width: 35%;
+    padding-top: 1px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative; /* Add this line to make sure the close button is positioned relative to the modal content */
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    line-height: 1;
+    color: #333;
+    cursor: pointer;
+}
+
+/* ... Other styles ... */
+
+.open-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
